@@ -28,6 +28,11 @@ nav{
 .co{
 	color:white;
 }
+.center{
+	text-align: center;
+	padding-left: 20px;
+	padding-bottom: 2px;
+}
 span{
 	color: #f9004d;
 }

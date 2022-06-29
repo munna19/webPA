@@ -1,0 +1,81 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title>  
+Form & Table 
+</title>  
+<style>  
+ 
+input[type=text] {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+<div class="container">  
+<center>  <h1> Application  Form</h1> </center>  
+<hr>  
+<label> First Name: </label>   
+<input type="text" name="firstname" placeholder= "First Name" size="15" required />   
+<label> Middle Name: </label>   
+<input type="text" name="middlename" placeholder="Middle Name" size="15" required />   
+<label> Last Name: </label>    
+<input type="text" name="lastname" placeholder="Last Name" size="15"required />  
+<label> Age </label> 
+<input type="text" name="Age" placeholder="Age" size="15"required />  
+<div>    
+Gender :  
+</label>  
+<br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+</div>  
+
+<input type="submit" value="Submit"> 
+  
+</form>  
+
+<br><br><br>
+<h1> Table</h1>
+<table border ="2">
+    <tr>
+    <td> R1 </td>
+    <td rowspan ="3"> Class A </td>
+    <td colspan ="2">Class B </td>
+    <td rowspan ="4"> Class C </td>
+    </tr>
+    <tr>
+    <td>R2</td>
+    <td>Class D</td>
+    <td>Class E</td>
+    </tr>
+    <tr>
+    <td>R3</td>
+    <td rowspan = "2">Class G</td>
+    <td rowspan = "2">Class H</td>
+    </tr><tr>
+    <td>R4</td>
+    <td>Class F</td>
+    </tr>
+    </table>
+</body>    
+</html>
